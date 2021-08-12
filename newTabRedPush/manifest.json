@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "GymBuddy - New Motivation Tab",
+    "version": "1.0",
+    "description": "Provides motivational quotes for each tab opened with an inspiring image as well",
+    "author": "DJ and TT",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "icons": {
+      "16": "icon.png",
+      "128": "icon_128.png"
+    }
+  }
